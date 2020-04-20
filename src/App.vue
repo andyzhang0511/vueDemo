@@ -1,17 +1,17 @@
 <template>
     <div id="app">
-        <excel/>
+        <extend/>
     </div>
 </template>
 
 <script>
 
-import excel from '@/components/excel/excel.vue'
+import extend from '@/components/vueApi/extend.vue'
 
 export default {
   name: 'App',
   components: {
-    excel
+    extend
   }
 }
 </script>
