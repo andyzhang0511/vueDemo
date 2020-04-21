@@ -23,6 +23,12 @@ import * as L from 'leaflet'
 import '@/components/mapStudy/sourceFile/leaflet.css'
 
 import XLSX from 'js-xlsx'
+
+// 全局过滤器
+Vue.filter('globalFilter', function (value) {
+  return value + '!!!'
+})
+
 Vue.L = Vue.prototype.$L = L
 Vue.use(XLSX)
 

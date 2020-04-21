@@ -1,17 +1,17 @@
 <template>
     <div id="app">
-        <extend/>
+        <version/>
     </div>
 </template>
 
 <script>
 
-import extend from '@/components/vueApi/extend.vue'
+import version from '@/components/vueApi/version.vue'
 
 export default {
   name: 'App',
   components: {
-    extend
+    version
   }
 }
 </script>
