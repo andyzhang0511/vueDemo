@@ -1,17 +1,17 @@
 <template>
     <div id="app">
-        <version/>
+        <ref/>
     </div>
 </template>
 
 <script>
 
-import version from '@/components/vueApi/version.vue'
+import ref from '@/components/vueApi2/ref.vue'
 
 export default {
   name: 'App',
   components: {
-    version
+    ref
   }
 }
 </script>
