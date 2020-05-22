@@ -1,17 +1,17 @@
 <template>
     <div id="app">
-        <ref/>
+        <rsa/>
     </div>
 </template>
 
 <script>
 
-import ref from '@/components/vueApi2/ref.vue'
+import rsa from '@/components/rsa.vue'
 
 export default {
   name: 'App',
   components: {
-    ref
+    rsa
   }
 }
 </script>

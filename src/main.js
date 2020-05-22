@@ -14,6 +14,8 @@ import '@/assets/images/marker-icon.png'
 // 引入echarts
 import echarts from 'echarts'
 
+import axios from 'axios'
+
 // 引入iconfont.css样式
 import './assets/icon/iconfont.css'
 
@@ -23,6 +25,7 @@ import * as L from 'leaflet'
 import '@/components/mapStudy/sourceFile/leaflet.css'
 
 import XLSX from 'js-xlsx'
+Vue.prototype.axios = axios
 
 // 全局过滤器
 Vue.filter('globalFilter', function (value) {
