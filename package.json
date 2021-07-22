@@ -19,7 +19,7 @@
     "jsencrypt": "^3.0.0-rc.1",
     "leaflet": "^1.6.0",
     "vue": "^2.5.2",
-    "xlsx": "^0.15.6"
+    "xlsx": "^0.17.0"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
